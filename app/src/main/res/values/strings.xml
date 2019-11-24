@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">cinemalleo</string>
+    <string-array name="drivers">
+        <item>Select</item>
+        <item>Go to F1 website</item>
+        <item>Call Kimi Raikonen</item>
+        <item>Pierre Gasly</item>
+        <item>Take Photo of Kimi</item>
+        <item>Edit Kimis Photo</item>
+    </string-array>
+</resources>

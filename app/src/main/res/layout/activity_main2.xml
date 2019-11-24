@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".Main2Activity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:text="PREVIOUS PAGE"
+                    android:layout_weight="1"
+                    android:textScaleX="2"
+                    android:background="@drawable/sauber"
+                    android:textSize="15dp"
+                    android:textStyle="bold">
+                </Button>
+
+                <Button
+                    android:id="@+id/nextpagebutton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sauber"
+                    android:text="NEXT PAGE"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textScaleX="8">
+
+                </Button>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#9909F9"
+            android:orientation="vertical"
+            android:weightSum="3"
+            >
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="10dp">
+                </Space>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    android:background="#004488"
+                    android:textScaleX="3"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Choose Wisely"
+                    android:textSize="20dp">
+                </TextView>
+
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spinnerSelection"
+                    android:padding="20dp"
+                    android:layout_margin="10dp"
+                    android:entries="@array/drivers"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="#1da38c"
+                    android:gravity="center_horizontal|center_vertical">
+                </Spinner>
+
+
+
+
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFEB3B"
+                    android:text="MAKE THE SELECTED ACTION"
+                    android:textSize="20dp">
+
+                </Button>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

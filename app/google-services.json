@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1058176281308",
+    "firebase_url": "https://cinemalleo.firebaseio.com",
+    "project_id": "cinemalleo",
+    "storage_bucket": "cinemalleo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058176281308:android:3509ea0961d30aeb22e219",
+        "android_client_info": {
+          "package_name": "com.example.cinemalleo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058176281308-qcbq0bq2icjcc861gssp157oc57c8ggm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cinemalleo",
+            "certificate_hash": "f9e77421939d77aaa2ce944ee8080c7a73577049"
+          }
+        },
+        {
+          "client_id": "1058176281308-74e268k8826c7pdfapl9em7hnoahaj7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOkyaNNJt6hvm71CrF11noziEjVCLoIpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058176281308-74e268k8826c7pdfapl9em7hnoahaj7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

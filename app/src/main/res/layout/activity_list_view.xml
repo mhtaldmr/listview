@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppListView"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="20"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="#DDDDDD">
+
+
+        <Button
+            android:id="@+id/secondpage"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mysecondbutton"
+            android:text="Back"
+            android:gravity="left"
+            android:textColor="#111111"
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="@drawable/holiday"
+            android:fontFamily="@font/lobster_two_bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Travel List"
+            android:textColor="#00DDDD"
+            android:textSize="40dp"
+            android:typeface="sans" />
+
+
+
+        <ListView
+            android:id="@+id/myListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
